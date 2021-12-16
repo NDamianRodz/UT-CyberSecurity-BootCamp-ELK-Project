@@ -4,11 +4,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](https://github.com/NDamianRodz/UT-CyberSecurity-BootCamp-ELK-Project/blob/main/ELK%20Network%20Diagram.jpg)
+![ELK Network Diagram](https://github.com/NDamianRodz/UT-CyberSecurity-BootCamp-ELK-Project/blob/main/ELK%20Network%20Diagram.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  ![filebeat-playbook.yml](https://github.com/NDamianRodz/UT-CyberSecurity-BootCamp-ELK-Project/blob/main/filebeat-playbook.yml)
+  [filebeat-playbook.yml](https://github.com/NDamianRodz/UT-CyberSecurity-BootCamp-ELK-Project/blob/main/filebeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topologu
