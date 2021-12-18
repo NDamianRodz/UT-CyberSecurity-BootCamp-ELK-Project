@@ -72,14 +72,21 @@ The following screenshot displays the result of running `docker ps` after succes
 ![](https://github.com/NDamianRodz/UT-CyberSecurity-BootCamp-ELK-Project/blob/main/ELK%20PS%20Output%20Screenshot.png)
 
 ### Target Machines & Beats
+
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+
+-Web-1 10.0.0.5
+-Web-2 10.0.0.6
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
+
+-Filebeat
+-Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+
+-Filebeat watches for log files/locations and collect log events. (Filebeat: Lightweight Log Analysis & Elasticsearch)
+-Metricbeat records metrics and statistical data from the operating system and from services running on the server (Metricbeat: Lightweight Shipper for Metrics)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
